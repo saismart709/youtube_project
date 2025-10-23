@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 240 10% 6%;
+    --foreground: 240 5% 96%;
+
+    --card: 240 8% 10%;
+    --card-foreground: 240 5% 96%;
+
+    --popover: 240 8% 10%;
+    --popover-foreground: 240 5% 96%;
+
+    --primary: 263 70% 60%;
+    --primary-foreground: 240 5% 96%;
+    --primary-glow: 263 70% 70%;
+
+    --secondary: 240 5% 20%;
+    --secondary-foreground: 240 5% 96%;
+
+    --muted: 240 5% 15%;
+    --muted-foreground: 240 5% 65%;
+
+    --accent: 189 95% 55%;
+    --accent-foreground: 240 10% 6%;
+    --accent-glow: 189 95% 65%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 240 5% 96%;
+
+    --success: 142 76% 36%;
+    --success-foreground: 240 5% 96%;
+
+    --warning: 38 92% 50%;
+    --warning-foreground: 240 10% 6%;
+
+    --border: 240 5% 20%;
+    --input: 240 5% 20%;
+    --ring: 263 70% 60%;
+
+    --radius: 0.75rem;
+
+    --chart-1: 263 70% 60%;
+    --chart-2: 189 95% 55%;
+    --chart-3: 142 76% 36%;
+    --chart-4: 38 92% 50%;
+    --chart-5: 0 84.2% 60.2%;
+
+    --gradient-primary: linear-gradient(135deg, hsl(263 70% 60%), hsl(263 70% 70%));
+    --gradient-accent: linear-gradient(135deg, hsl(189 95% 55%), hsl(189 95% 65%));
+    --gradient-dark: linear-gradient(180deg, hsl(240 10% 6%), hsl(240 8% 10%));
+    
+    --shadow-glow: 0 0 40px hsl(263 70% 60% / 0.3);
+    --shadow-accent-glow: 0 0 40px hsl(189 95% 55% / 0.3);
+    --shadow-elegant: 0 10px 30px -10px hsl(240 10% 0% / 0.5);
+    
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --sidebar-background: 240 8% 10%;
+    --sidebar-foreground: 240 5% 96%;
+    --sidebar-primary: 263 70% 60%;
+    --sidebar-primary-foreground: 240 5% 96%;
+    --sidebar-accent: 240 5% 15%;
+    --sidebar-accent-foreground: 240 5% 96%;
+    --sidebar-border: 240 5% 20%;
+    --sidebar-ring: 263 70% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
