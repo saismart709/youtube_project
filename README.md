@@ -2,17 +2,9 @@
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/1dccd4df-c853-4937-b629-8bba4b1f2d95
-
 ## How can I edit this code?
 
 There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/1dccd4df-c853-4937-b629-8bba4b1f2d95) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
 
 **Use your preferred IDE**
 
@@ -61,13 +53,10 @@ This project is built with:
 - Tailwind CSS
 
 ## How can I deploy this project?
+you can use github  or render to deploy this project into live in browser  
 
-Simply open [Lovable](https://lovable.dev/projects/1dccd4df-c853-4937-b629-8bba4b1f2d95) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## how to run 
+step 1: download this zipfile or clone this project repo. 
+step 2:After downloading this file extract this all file into your drive 
+step 3:add this folder path into a cmd and type code .it will display this floder flies in your vscode ide platform 
+step 4:after that open the new terminal in vs code type this "npm run dev " to run this project in vscode 
